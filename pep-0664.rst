@@ -38,16 +38,16 @@ Release Schedule
 ---------------
 
 Note: the dates below use a 17-month development period that results
-in a 12-month release cadence between major versions, as defined by
+in a 12-month release cadence between feature versions, as defined by
 :pep:`602`.
 
 Actual:
 
 - 3.11 development begins: Monday, 2021-05-03
-- 3.11.0 alpha 1: Monday, 2021-10-05
+- 3.11.0 alpha 1: Tuesday, 2021-10-05
 - 3.11.0 alpha 2: Tuesday, 2021-11-02
 - 3.11.0 alpha 3: Wednesday, 2021-12-08
-- 3.11.0 alpha 4: Monday, 2022-01-14
+- 3.11.0 alpha 4: Friday, 2022-01-14
 - 3.11.0 alpha 5: Thursday, 2022-02-03
 - 3.11.0 alpha 6: Monday, 2022-03-07
 - 3.11.0 alpha 7: Tuesday, 2022-04-05
@@ -68,11 +68,11 @@ Actual:
 
 - 3.11.1: Tuesday, 2022-12-06
 - 3.11.2: Wednesday, 2023-02-08
+- 3.11.3: Wednesday, 2023-04-05
+- 3.11.4: Tuesday, 2023-06-06
 
 Expected:
 
-- 3.11.3: Monday, 2023-04-03
-- 3.11.4: Monday, 2023-06-05
 - 3.11.5: Monday, 2023-08-07
 - 3.11.6: Monday, 2023-10-02
 - 3.11.7: Monday, 2023-12-04

@@ -2,13 +2,22 @@ PEP: 697
 Title: Limited C API for Extending Opaque Types
 Author: Petr Viktorin <encukou@gmail.com>
 Discussions-To: https://discuss.python.org/t/19743
-Status: Draft
+Status: Final
 Type: Standards Track
 Content-Type: text/x-rst
 Created: 23-Aug-2022
 Python-Version: 3.12
 Post-History: `24-May-2022 <https://mail.python.org/archives/list/capi-sig@python.org/thread/SIP3VP7JU4OBWP62KBOYGOYCVIOTXEFH/>`__,
               `06-Oct-2022 <https://discuss.python.org/t/19743>`__,
+Resolution: https://discuss.python.org/t/19743/30
+
+
+.. canonical-doc::
+   :external+py3.12:c:member:`PyType_Spec.basicsize`,
+   :external+py3.12:c:func:`PyObject_GetTypeData`,
+   :external+py3.12:data:`Py_TPFLAGS_ITEMS_AT_END`,
+   :external+py3.12:c:macro:`Py_RELATIVE_OFFSET`,
+   :external+py3.12:c:func:`PyObject_GetItemData`
 
 
 Abstract
@@ -337,7 +346,7 @@ In CPython, this function will be defined as:
        return (char *)obj + _align(cls->tp_base->tp_basicsize);
    }
 
-Another function will be added to retreive the size of this memory area:
+Another function will be added to retrieve the size of this memory area:
 
 .. code-block:: c
 

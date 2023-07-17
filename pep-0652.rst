@@ -10,6 +10,9 @@ Python-Version: 3.10
 Resolution: https://mail.python.org/archives/list/python-dev@python.org/message/IN4XMFLQJ6D6V67EXU27GV3QWSEHHNNH/
 
 
+.. canonical-doc:: :ref:`python:stable` (user docs) and
+                   :ref:`devguide:c-api` (development docs)
+
 Abstract
 ========
 
@@ -242,7 +245,7 @@ The initial Stable ABI manifest will include:
 Items that are no longer in CPython when this PEP is accepted will be removed
 from the list.
 
-Additional items may be aded to the initial manifest according to
+Additional items may be added to the initial manifest according to
 the checklist below.
 
 
