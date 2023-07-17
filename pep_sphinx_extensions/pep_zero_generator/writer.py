@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-import datetime
+import datetime as dt
 from typing import TYPE_CHECKING
 import unicodedata
 
@@ -32,7 +32,7 @@ if TYPE_CHECKING:
 HEADER = f"""\
 PEP: 0
 Title: Index of Python Enhancement Proposals (PEPs)
-Last-Modified: {datetime.date.today()}
+Last-Modified: {dt.date.today()}
 Author: python-dev <python-dev@python.org>
 Status: Active
 Type: Informational
@@ -149,7 +149,7 @@ class PEPZeroWriter:
                 target = (
                     f"topic/{subindex}.html"
                     if builder == "html"
-                    else f"topic/{subindex}"
+                    else f"../topic/{subindex}"
                 )
                 self.emit_text(f"* `{subindex.title()} PEPs <{target}>`_")
                 self.emit_newline()
